@@ -120,4 +120,4 @@ In `team.html`, each team member is enclosed in a `<article class="team-card">`.
 Place new screenshots in `assets/images/games/` and add them to the `<div class="gallery-grid">` in `dhaba-dash.html` with the desired `data-category` (`gameplay`, `menu`, or `progression`).
 
 ### 4. Updating Official Contact Details
-The official email is `zingaari.india@gmail.com` and phone is `+91 9609042762`. Search and replace these strings in `index.html`, `dhaba-dash.html`, and `team.html`.
+The official email is `zingaari.india@gmail.com`. You can update this string across `index.html`, `dhaba-dash.html`, and `team.html`.

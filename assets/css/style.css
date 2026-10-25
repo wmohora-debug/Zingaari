@@ -1244,8 +1244,27 @@ p {
 }
 
 .comp-card-other {
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #241A16;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.comp-card-other h3 {
+  color: #1F1512 !important;
+  font-size: 1.45rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.comp-card-other .comp-list li {
+  color: #4A3B33;
+  line-height: 1.55;
+}
+
+.comp-card-other .comp-list li strong {
+  color: #140C08;
+  font-weight: 700;
 }
 
 .comp-card-dhaba {
@@ -1256,7 +1275,20 @@ p {
 }
 
 .comp-card-dhaba h3 {
-  color: var(--color-secondary);
+  color: var(--color-secondary) !important;
+  font-size: 1.45rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.comp-card-dhaba .comp-list li {
+  color: #E2D7D0;
+  line-height: 1.55;
+}
+
+.comp-card-dhaba .comp-list li strong {
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 .comp-list {
