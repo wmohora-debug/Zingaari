@@ -46,24 +46,47 @@
       <div class="nav-actions">
         <a href="#playtest" class="btn btn-primary btn-sm">Request Playtest</a>
         <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
         </button>
       </div>
     </div>
 
     <!-- Mobile Drawer Menu -->
     <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
-      <ul class="mobile-menu-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="dhaba-dash.html" class="nav-link active">Dhaba Dash</a></li>
-        <li><a href="team.html" class="nav-link">Our Team</a></li>
-        <li><a href="#playtest" class="nav-link">Request Playtest</a></li>
-      </ul>
-      <a href="mailto:zingaari.india@gmail.com?subject=Dhaba%20Dash%20Playtest%20Access" class="btn btn-primary btn-sm" style="width: 100%;">Email Playtest Request</a>
+      <div class="mobile-menu-inner">
+        <ul class="mobile-menu-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              <span>Home</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="dhaba-dash.html" class="nav-link active">
+              <span>Dhaba Dash</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="team.html" class="nav-link">
+              <span>Our Team</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#playtest" class="nav-link">
+              <span>Request Playtest</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+        </ul>
+        <div class="mobile-menu-actions">
+          <a href="#playtest" class="btn btn-primary" style="width: 100%;">Request Playtest Access</a>
+          <a href="mailto:zingaari.india@gmail.com" class="btn btn-secondary" style="width: 100%;">Email Studio</a>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -502,6 +525,12 @@
   <div id="screenshotLightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Screenshot Preview">
     <button class="lightbox-close" aria-label="Close preview">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous screenshot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next screenshot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
     </button>
     <div class="lightbox-content">
       <img src="" alt="Screenshot Full View" class="lightbox-image">

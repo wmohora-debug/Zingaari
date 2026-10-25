@@ -46,24 +46,47 @@
       <div class="nav-actions">
         <a href="#join" class="btn btn-primary btn-sm">Join the Kitchen</a>
         <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
         </button>
       </div>
     </div>
 
     <!-- Mobile Drawer Menu -->
     <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
-      <ul class="mobile-menu-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="dhaba-dash.html" class="nav-link">Dhaba Dash (Our Game)</a></li>
-        <li><a href="team.html" class="nav-link active">Our Team</a></li>
-        <li><a href="#join" class="nav-link">Join the Kitchen</a></li>
-      </ul>
-      <a href="mailto:zingaari.india@gmail.com" class="btn btn-primary btn-sm" style="width: 100%;">Email Studio</a>
+      <div class="mobile-menu-inner">
+        <ul class="mobile-menu-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              <span>Home</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="dhaba-dash.html" class="nav-link">
+              <span>Dhaba Dash</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="team.html" class="nav-link active">
+              <span>Our Team</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#join" class="nav-link">
+              <span>Join the Kitchen</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </li>
+        </ul>
+        <div class="mobile-menu-actions">
+          <a href="dhaba-dash.html#playtest" class="btn btn-primary" style="width: 100%;">Request Playtest Access</a>
+          <a href="mailto:zingaari.india@gmail.com" class="btn btn-secondary" style="width: 100%;">Email Studio</a>
+        </div>
+      </div>
     </div>
   </header>
 
